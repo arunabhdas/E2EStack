@@ -10,10 +10,6 @@ load_dotenv()
 OPENAI_MODEL = "gpt-4"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-PROMPT_COUNTRY_INFO = """
-    Provide information about {country_name}
-    """
-
 def main():
 
     llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model=OPENAI_MODEL)
