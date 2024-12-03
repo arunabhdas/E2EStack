@@ -18,6 +18,8 @@ def main():
 
     llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model=OPENAI_MODEL)
     # llm = OpenAI(temperature=0.9, openai_api_key=OPENAI_API_KEY)
+    country_name = input("Enter the name of a country: ")
+    
     result = llm.invoke("Give me 5 topics for interesting YouTube videos about Python")
     print(result)
 
