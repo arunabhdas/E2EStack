@@ -53,3 +53,12 @@ rm get-pip.py
 
 pip install pydantic-ai yfinance gradio python-dotenv
 ```
+
+
+## Running E2EPydantic
+
+```
+cd E2EPydantic
+
+python ui.py
+```
