@@ -11,7 +11,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
+import androidx.compose.ui.window.WindowState
 import androidx.compose.ui.window.application
 
 fun main() = application {
@@ -25,6 +27,8 @@ fun main() = application {
             Window(
                 onCloseRequest = { secondWindowOpened = false },
                 title = "Settings",
+                state = WindowState(width = 300.dp, height = 600.dp),
+                resizable = false
             ) {
                 Column(
                     modifier = Modifier.fillMaxSize(),
