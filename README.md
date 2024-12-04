@@ -61,4 +61,5 @@ pip install pydantic-ai yfinance gradio python-dotenv
 cd E2EPydantic
 
 python ui.py
+
 ```
