@@ -1,6 +1,14 @@
 # E2EStack
 End 2 End Stack for AI Automation and Integrations
 
+## Develop Steps for E2EApp
+
+```
+cd E2EApp/E2EApp
+
+./gradlew run
+```
+
 ## Prerequisites
 
 ```
